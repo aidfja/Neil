@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clash of Clans Blog - Dark Mode</title>
+  <style>
+    body, h1, h2, h3, p, ul, li, a {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      list-style: none;
+      color: inherit;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #121212;
+      color: #e0e0e0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: #1e1e1e;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.05);
+      border-radius: 10px;
+    }
+
+    header {
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #f1c40f;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      background: #f1c40f;
+      padding: 10px 0;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      border-radius: 5px;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #121212;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .stock-section {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .alert {
+      background: #2b2b2b;
+      margin-bottom: 20px;
+      padding: 20px;
+      border: 1px solid #444;
+      border-radius: 8px;
+    }
+
+    .alert h2 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+      color: #f1c40f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+      background: #f1c40f;
+      color: #121212;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer a {
+      color: #121212;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav ul li {
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Clash of Clans </h1>
+      <p>Tips, strategies, and updates for every Clash player.</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Attack Guides</a></li>
+        <li><a href="#">Base Layouts</a></li>
+        <li><a href="#">Clan Wars</a></li>
+      </ul>
+    </nav>
+
+    <section class="stock-section">
+      <article class="alert">
+        <h2>Top TH13 Attack Strategies for 3-Stars</h2>
+        <p><strong>Date:</strong> April 6, 2025</p>
+        <p>Discover the best Town Hall 13 attack combos to maximize your chances in war — including Hybrid, Yeti Smash, and Blizzard Lalo!</p>
+      </article>
+
+      <article class="alert">
+        <h2>Best Base Designs for TH9 Defense</h2>
+        <p><strong>Date:</strong> April 4, 2025</p>
+        <p>Need a solid defense for clan war or CWL? These TH9 bases will keep attackers guessing and prevent 3-stars.</p>
+      </article>
+
+      <article class="alert">
+        <h2>Clan War League: Preparation Checklist</h2>
+        <p><strong>Date:</strong> April 2, 2025</p>
+        <p>Make sure your clan is ready for battle with these pre-CWL tips—from war base setup to troop donation planning.</p>
+      </article>
+
+      <article class="alert">
+        <h2>Update Review: Builder Base 2.0 Changes</h2>
+        <p><strong>Date:</strong> March 30, 2025</p>
+        <p>Supercell has rolled out massive changes to Builder Base. Here's everything you need to know about the new mechanics and rewards.</p>
+      </article>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Clash of Clans Blog. All Rights Reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
